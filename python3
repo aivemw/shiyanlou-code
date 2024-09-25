@@ -7,4 +7,5 @@ for n in range(1,101):
     continue
   else:
     print(n)
+#2024年9月26日02:56:36
 '''
