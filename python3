@@ -1,2 +1,8 @@
 #!/usr/bin/python
 # -*- coding:UTF-8 -*-
+#循环1至100的数，除掉7及7的整数倍的数，并打印
+for n in range(1,101):
+  if n % 7 == 0 or n % 10 == 7 or n // 10 ==7:
+    continue
+  else:
+    print(n)
